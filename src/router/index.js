@@ -1,9 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import ListNewsView from "../views/ListNewsView.vue";
-import DetailNewsView from "../views/DetailNewsView.vue";
+import ListBeritaView from "../views/ListBeritaView.vue";
+import DetailBeritaView from "../views/DetailBeritaView.vue";
 import DefaultView from "../views/DefaultView.vue";
-import CategoryView from "../views/CategoryView.vue";
+import KategoriView from "../views/KategoriView.vue";
 
 Vue.use(VueRouter);
 
@@ -25,24 +25,24 @@ const routes = [
           {
             path: "",
             name: "Kategori Berita",
-            component: CategoryView,
+            component: KategoriView,
           },
           {
             path: ":category",
             name: "genre Berita",
-            component: ListNewsView,
+            component: ListBeritaView,
           },
         ],
       },
       {
         path: "",
         name: "Berita",
-        component: ListNewsView,
+        component: ListBeritaView,
       },
       {
         path: ":slug",
         name: "Detail Berita",
-        component: DetailNewsView,
+        component: DetailBeritaView,
       },
     ],
   },

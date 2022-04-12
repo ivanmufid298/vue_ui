@@ -17,31 +17,24 @@ export default new Vuex.Store({
     listCategories: [
       {
         nama: "business",
-        gambar: "https://source.unsplash.com/1000x300/?business",
       },
       {
         nama: "entertainment",
-        gambar: "https://source.unsplash.com/1000x300/?entertainment",
       },
       {
         nama: "general",
-        gambar: "https://source.unsplash.com/1000x300/?general",
       },
       {
         nama: "health",
-        gambar: "https://source.unsplash.com/1000x300/?health",
       },
       {
         nama: "science",
-        gambar: "https://source.unsplash.com/1000x300/?science",
       },
       {
         nama: "sports",
-        gambar: "https://source.unsplash.com/1000x300/?sports",
       },
       {
         nama: "technology",
-        gambar: "https://source.unsplash.com/1000x300/?technology",
       },
     ],
   },

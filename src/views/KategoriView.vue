@@ -1,16 +1,16 @@
 <template>
   <div>
-    <CategoryNews />
+    <KategoriBerita />
   </div>
 </template>
 
 <script>
-import CategoryNews from "@/components/CategoryNews.vue";
+import KategoriBerita from "@/components/KategoriBerita.vue";
 
 export default {
   name: "CategoryView",
   components: {
-    CategoryNews,
+    KategoriBerita,
   },
 };
 </script>

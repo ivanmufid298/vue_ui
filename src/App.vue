@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <NavbarHead />
+    <NavbarBerita />
     <v-main>
       <router-view />
     </v-main>
@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import NavbarHead from "@/components/NavbarHead.vue";
+import NavbarBerita from "@/components/NavbarBerita.vue";
 export default {
-  components: { NavbarHead },
+  components: { NavbarBerita },
 };
 </script>
